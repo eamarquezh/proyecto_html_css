@@ -1,0 +1,96 @@
+/* variables */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+:root{
+--green-color:green;
+}
+
+html,body{
+  padding:0px;
+  margin:0px;
+  font: 12px;
+  font-family: 'Open Sans', sans-serif;;
+}
+nav{
+  display: flex;
+  background-color: var(--green-color);
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+}
+nav li{
+  padding-right: 20px;;
+  list-style-type: none;
+}
+nav li a{
+  color: black;
+  text-decoration: none;s
+}
+nav li a:hover{
+  color: white;
+}
+
+label{
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+/* main section */
+.main_section{
+  padding: 15%;
+  text-align: center;
+}
+.products{
+  background-image: url("../images/curva.jpg");
+  height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 15%;
+  display: flex;
+}
+.product{
+  padding: 10%;
+  margin-top: -160px;
+}
+.product .content{
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 0 1px black;
+}
+
+.main_buton{
+  background-color: yellow;
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  border: 0;
+  cursor: pointer;
+  -webkit-order: 20px;
+  -ms-order: 20px;
+  order: 20px;
+}
+
+.main_buton:hover{
+  background-color: gray;
+}
+
+
+.modulo_pago{
+  background-color: gray;
+  box-shadow: blue;
+  padding: 10px;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.modulo_pago_images{
+  max-width: 200px;
+  text-align: center;
+  width: : 100%;
+  margin: auto;
+}
